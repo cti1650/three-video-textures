@@ -1,0 +1,35 @@
+{
+  "name": "video-textures",
+  "version": "1.0.0",
+  "description": "How to load, apply and play video textures, and how to calculate fullscreen, or \"cover\" aspect ratio. ",
+  "keywords": [
+    "video",
+    "texture",
+    "aspect-ratio"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@pmndrs/branding": "0.0.8",
+    "@react-three/drei": "6.0.5",
+    "@react-three/fiber": "7.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "three": "0.129.0"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
